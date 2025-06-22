@@ -1,0 +1,7 @@
+fastmcp
+yfinance
+pydantic
+ollama
+pandas
+scikit-learn
+scipy
