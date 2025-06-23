@@ -160,3 +160,4 @@ TradeCP leverages advanced AI to:
 4. also add mcp.resources to get the checking factor of all these ratios make context better and good to have with llms so that it can give better results.
 5. Make prompting good and clear.
 6. Focus on all other aspects like company product performance and seasonal demands and pattern recognizing using codes and logic.
+7. Add a web search, first it should do a search and extract titles of each site and LLM will call another and decide which one to open and after that extract only selected once and feed by summarise them.
