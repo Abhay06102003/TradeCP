@@ -154,10 +154,8 @@ TradeCP leverages advanced AI to:
 
 ## 🔮 Future Improvements
 
-1. I am planning to add a robust Technical analysis logic, ressistance levels weigthed on time and frequency. also Triangle patterns.
-2. Plan to add Financial Analysis like company future projects and Managment.
-3. Planning to add the all Ratios like PE, ROCE and all these.
-4. also add mcp.resources to get the checking factor of all these ratios make context better and good to have with llms so that it can give better results.
-5. Make prompting good and clear.
-6. Focus on all other aspects like company product performance and seasonal demands and pattern recognizing using codes and logic.
-7. Add a web search, first it should do a search and extract titles of each site and LLM will call another and decide which one to open and after that extract only selected once and feed by summarise them.
+1. Make the logic and code more robust.
+2. Use the current code to get the correct price action prediction.
+3. Make sure it takes the real values and give the correct reports.
+4. Make the LLM context that I feed more intutive and short to the point using RAG also.
+5. Create a frontend.
