@@ -5,7 +5,7 @@ from typing import Any
 
 class Price(pydantic.BaseModel):
     company_information: dict[Any, Any]
-    current_price: dict[Any, Any]
+    current_price: float | Any
     historical_prices: list[dict[Any, Any]]
     earnings_history: dict[Any, Any] | pd.DataFrame
     estimates: dict[Any, Any] | pd.DataFrame
@@ -22,8 +22,11 @@ def get_price(ticker: str):
     estimates = ticker_obj.get_earnings_estimate(as_dict=True)
     return Price(
         company_information=company_information,
-        current_price=current_price,
+        current_price=current_price['current'],
         historical_prices=historical_prices,
         earnings_history=earnings_history,
         estimates=estimates
     )
+
+if __name__ == "__main__":
+    print(get_price("AAPL"))

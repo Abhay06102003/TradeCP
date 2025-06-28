@@ -285,7 +285,7 @@ Don't mention the technical details about using tools, just give a conversationa
 
 async def main():
     # Initialize the chat system
-    chat_system = MCPChatSystem(r"/home/abhay06102003/Desktop/Proj/TradeCP/mcp_sever.py", "qwen3:4b")
+    chat_system = MCPChatSystem(r"/home/abhay06102003/Desktop/Proj/TradeCP/backend/mcp_sever.py", "qwen3:8b")
     
     # Start the interactive chat
     await chat_system.start_chat()
